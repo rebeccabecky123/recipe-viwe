@@ -1,26 +1,252 @@
-html,
+
+
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-a {
-  color: inherit;
+.homepage {
+  padding: 2rem;
+}
+
+.homepage__title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto);   
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
-* {
-  box-sizing: border-box;
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(248, 231, 231, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.recipe-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 1;
+}
+
+.recipe-card__image {
+ object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.recipe-card__info {
+  padding: 1rem;
+}
+
+.recipe-card__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+
+.recipe-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.recipe-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.recipe-image-wrapper {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  position: relative;
+  margin: 0 auto 30px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.recipe-section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+}
+
+.recipe-list {
+  padding-left: 20px;
+}
+
+.recipe-list li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.recipe-steps {
+  list-style-type: decimal;
+  padding-left: 24px;
+}
+
+.recipe-steps li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.sizes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sizes-list li {
+  display: flex;
+  justify-content: space-between;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.homepage__content {
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.homepage__title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.homepage__subtitle {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.auth-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.auth-card {
+  width: 260px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.auth-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.auth-card__icon-wrapper {
+  margin-bottom: 1rem;
+}
+
+.auth-card__icon {
+  border-radius: 8px;
+}
+
+.auth-card__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.auth-card__button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #0070f3;
+  
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-card__button:hover {
+  background-color: #0059c1;
+}
+
+
+.auth-card__user-button {
+  border-radius: 50%;
+  border: 2px solid #1a1a1b;
+}
+.user-profile {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.user-profile:hover {
+  transform: scale(1.05);
 }

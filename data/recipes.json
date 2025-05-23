@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "fluffy-pancakes",
+    "title": "Fluffy Pancakes",
+    "image": "pancake.jpg",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "2 tablespoons sugar",
+      "2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1 cup milk",
+      "1 large egg",
+      "2 tablespoons melted butter"
+    ],
+    "steps": [
+      "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
+      "In another bowl, beat the egg, then add milk and melted butter.",
+      "Pour wet ingredients into dry ingredients and stir until just combined.",
+      "Heat a griddle over medium heat and pour 1/4 cup batter for each pancake.",
+      "Cook until bubbles form on the surface, then flip and cook until golden brown."
+    ]
+  },
+  {
+    "slug": "homemade-pizza",
+    "title": "Homemade Pizza",
+    "image": "pizza.jpg",
+    "ingredients": [
+      "2 1/4 teaspoons active dry yeast",
+      "1 1/2 cups warm water",
+      "3 1/2 cups all-purpose flour",
+      "2 tablespoons olive oil",
+      "2 teaspoons salt",
+      "1 teaspoon sugar",
+      "1 cup pizza sauce",
+      "2 cups shredded mozzarella cheese",
+      "Toppings of your choice"
+    ],
+    "steps": [
+      "Dissolve yeast in warm water and let stand for 5 minutes.",
+      "Mix flour, salt, and sugar in a large bowl. Add yeast mixture and olive oil.",
+      "Knead dough for 7-10 minutes until smooth and elastic.",
+      "Let dough rise in a greased bowl for 1 hour.",
+      "Preheat oven to 475°F (245°C).",
+      "Roll out dough and add sauce, cheese, and toppings.",
+      "Bake for 12-15 minutes until crust is golden."
+    ]
+  },
+  {
+    "slug": "creamy-garlic-pasta",
+    "title": "Creamy Garlic Pasta",
+    "image": "garlic-pasta.jpg",
+    "ingredients": [
+      "200g spaghetti",
+      "3 tablespoons butter",
+      "4 cloves garlic, minced",
+      "1 cup heavy cream",
+      "1 cup grated Parmesan cheese",
+      "Salt and pepper to taste",
+      "Fresh parsley (optional)"
+    ],
+    "steps": [
+      "Cook spaghetti according to package instructions. Reserve 1/2 cup pasta water.",
+      "In a pan, melt butter and sauté garlic for 1 minute.",
+      "Add cream and simmer for 2-3 minutes.",
+      "Stir in Parmesan until melted.",
+      "Add cooked pasta and toss to coat. Add reserved water if needed.",
+      "Season with salt, pepper, and garnish with parsley."
+    ]
+  },
+  {
+    "slug": "chocolate-chip-cookies",
+    "title": "Chocolate Chip Cookies",
+    "image": "cookies.jpg",
+    "ingredients": [
+      "1 cup unsalted butter, softened",
+      "1 cup brown sugar",
+      "1/2 cup white sugar",
+      "2 large eggs",
+      "2 teaspoons vanilla extract",
+      "3 cups all-purpose flour",
+      "1 teaspoon baking soda",
+      "1/2 teaspoon salt",
+      "2 cups chocolate chips"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream together butter and sugars until light and fluffy.",
+      "Add eggs and vanilla, mix well.",
+      "Combine flour, baking soda, and salt. Gradually add to wet ingredients.",
+      "Stir in chocolate chips.",
+      "Scoop onto baking sheet and bake for 10-12 minutes until golden edges appear.",
+      "Cool on a rack before serving."
+    ]
+  }
+]
